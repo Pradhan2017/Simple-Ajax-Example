@@ -1,7 +1,7 @@
 function fetchCities(str)
 {
   var req=new XMLHttpRequest();
-  req.open("get","http://cities.php?state="+str,true);
+  req.open("get","http://localhost/cities.php?state="+str,true);
   req.send();
   req.onreadystatechange=function(){
     if(req.readyState==4&&req.status==200)
