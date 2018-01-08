@@ -1,7 +1,7 @@
 function fetchCities(str)
 {
   var req=new XMLHttpRequest();
-  req.open("get","http://localhost/ajax/cities.php?state="+str,true);
+  req.open("get","https://pradhan2017.github.io/Simple-Ajax-Example/cities.php?state="+str,true);
   req.send();
   req.onreadystatechange=function(){
     if(req.readyState==4&&req.status==200)
