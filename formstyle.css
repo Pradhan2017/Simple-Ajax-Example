@@ -1,0 +1,19 @@
+#p1
+{
+  position:relative;
+  left:30%;
+  width:400px;
+  background-color:grey;
+  padding:30px;
+}
+#p1 div
+{
+  margin:10px; 
+}
+input, select
+{
+  display:block;
+  width:100%;
+  padding:10px;
+  border-radius:4px;
+}
